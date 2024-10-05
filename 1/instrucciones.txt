@@ -1,0 +1,19 @@
+Se deberá crear una Base de Datos del área de catastro de la HAM-LP, la cual deberá responder a su nombre por ejemplo BDMoises; 
+en la misma deberá considerar la relación Persona quien tiene al menos una propiedad. A partir de ello debe generar lo siguiente:
+
+1. Realice un maquetado utilizando bootstrap. Donde se muestre información general de la HAM-LP, asimismo los tipos de trámites 
+    que se tenga.
+
+2. Realice un ABC en PHP de las personas por propiedad, debe incluir la selección de la cuenta que la persona desee. 
+    El registro deberá efectuarlo un funcionario y visualizar el dueño.
+
+4. Existe una aplicación que controla el pago de impuesto de la propiedad esta fue desarrollada en JAVA, al ingresar con su cuenta en PHP
+     direccione el parámetro código catastral para obtener el tipo de impuesto; por ejemplo, si empieza con 1 se alto, 2 medio y 3 bajo.
+
+5. Le pidieron el mismo registro en visual c#, efectué la misma.
+
+6. Se desea obtener la lista de personas por tipo de impuesto (realice el agregado convirtiendo las filas en columnas)
+
+7. En el registro de persona añada un combo dependiente, esto se consigue con Ajax. Debe programas distrito y zona.
+
+8. Realice un programa en PHP que imprima “Hola mundo”
