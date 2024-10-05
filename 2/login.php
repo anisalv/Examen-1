@@ -33,7 +33,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         header('Location: propiedadesUsuario.php');
                         exit();
                     default:
-                        // Si no tiene un rol reconocido, redirigir a una página por defecto o mostrar un error.
                         header('Location: login.php');
                         exit();
                 }
