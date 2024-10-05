@@ -3,7 +3,6 @@ session_start();
 include('conexion.php');
 include('template/cabeceraU.php');
 
-// Verificar si el usuario está autenticado
 if (!isset($_SESSION['ci'])) {
     header('Location: login.php');
     exit();
@@ -11,7 +10,6 @@ if (!isset($_SESSION['ci'])) {
 
 $ci = $_SESSION['ci'];
 
-// Consulta para obtener todas las propiedades del usuario actual
 $sql = "SELECT idPropiedad, codCtastral, direccion, latitud, longitud
         FROM propiedad
         WHERE ci = ?";
